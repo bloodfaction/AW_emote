@@ -32,14 +32,14 @@ NPX.Procedures.register("emotes:setFavorite", (src, favorite) => {
         const row = rows[0];
         if (row.emote_value === value) {
           db.execute("DELETE FROM player_emotes WHERE id = ?", [row.id], () => {
-            console.log("Deleted emote entry");
+            console.log("[AW_emote] Deleted emote entry");
           });
         } else {
           db.execute(
             "UPDATE player_emotes SET emote_value = ? WHERE id = ?",
             [value, row.id],
             () => {
-              console.log("Updated emote entry");
+              console.log("[AW_emote] Updated emote entry");
             },
           );
         }
@@ -48,7 +48,7 @@ NPX.Procedures.register("emotes:setFavorite", (src, favorite) => {
           "INSERT INTO player_emotes (citizenid, emote_category, emote_index, emote_type, emote_value) VALUES (?, ?, ?, ?, ?)",
           [playerId, category, index, type, value],
           () => {
-            console.log("Inserted new emote entry");
+            console.log("[AW_emote] Inserted new emote entry");
           },
         );
       }

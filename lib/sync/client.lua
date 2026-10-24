@@ -68,7 +68,7 @@ L0_1(L1_1, L2_1)
 function L0_1(A0_2, A1_2, A2_2, ...)
   local L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
   L3_2 = TriggerServerEvent
-  L4_2 = "codera-sync:executeSyncNative"
+  L4_2 = "AW_emote-sync:executeSyncNative"
   L5_2 = A0_2
   L6_2 = A1_2
   L7_2 = A2_2
@@ -84,10 +84,10 @@ L1_1 = "syncNative"
 L2_1 = syncNative
 L0_1(L1_1, L2_1)
 L0_1 = RegisterNetEvent
-L1_1 = "codera-sync:clientExecuteSyncNative"
+L1_1 = "AW_emote-sync:clientExecuteSyncNative"
 L0_1(L1_1)
 L0_1 = AddEventHandler
-L1_1 = "codera-sync:clientExecuteSyncNative"
+L1_1 = "AW_emote-sync:clientExecuteSyncNative"
 function L2_1(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   if A2_2 then

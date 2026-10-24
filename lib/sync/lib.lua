@@ -720,7 +720,7 @@ function L1_1(A0_2, A1_2)
   L2_2 = L2_2(L3_2)
   if L2_2 then
     L2_2 = exports
-    L2_2 = L2_2["codera-vehicles"]
+    L2_2 = L2_2["AW_emote-vehicles"]
     L3_2 = L2_2
     L2_2 = L2_2.SetVehicleMods
     L4_2 = A0_2
@@ -743,7 +743,7 @@ function L1_1(A0_2, A1_2)
   L2_2 = L2_2(L3_2)
   if L2_2 then
     L2_2 = exports
-    L2_2 = L2_2["codera-vehicles"]
+    L2_2 = L2_2["AW_emote-vehicles"]
     L3_2 = L2_2
     L2_2 = L2_2.SetVehicleAppearance
     L4_2 = A0_2

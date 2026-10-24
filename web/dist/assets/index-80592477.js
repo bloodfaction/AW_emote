@@ -16966,7 +16966,7 @@ var Ze = {
   },
   log: (e, ...r) => {
     if (c1()) {
-      console.log(`^5[nopixel] ^7${e}`, ...r, "^0");
+      console.log(`^5[AW_emote] ^7${e}`, ...r, "^0");
     }
   },
   debug: (e, ...r) => {
@@ -20267,7 +20267,7 @@ function j2() {
 Gn(["mousedown", "mouseup"]);
 const Z2 = "_quick_16ksr_1";
 const H2 = "_title_16ksr_10";
-const W2 = "coderaDevelopments";
+const W2 = "AW_emote";
 const V2 = "_bar_16ksr_29";
 const q2 = "_emote_16ksr_36";
 const K2 = "_icon_16ksr_56";

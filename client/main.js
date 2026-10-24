@@ -15572,7 +15572,7 @@
         if (!_0x536ab7()) {
           return;
         }
-        console.log("^5[nopixel] ^7" + _0x255c91, ..._0x359bb4, "^0");
+        console.log("^5[AW_emote] ^7" + _0x255c91, ..._0x359bb4, "^0");
       },
       debug: (_0x25ab0d, ..._0x589d52) => {
         if (!_0x329408()) {
@@ -17556,28 +17556,28 @@
     };
     var _0x51c5ff = _0x58b457;
     var _0x46f235 = (_0x2f5b37, _0x33f7c8, _0x567082) => {
-      globalThis.exports["codera-emotesinteract"].AddPeekEntryByModel(
+      globalThis.exports["AW_emote-interact"].AddPeekEntryByModel(
         _0x2f5b37,
         _0x33f7c8,
         _0x567082,
       );
     };
     var _0x4067c7 = (_0x36a1eb, _0x2b2b70, _0x3840dc) => {
-      globalThis.exports["codera-emotesinteract"].AddPeekEntryByPolyTarget(
+      globalThis.exports["AW_emote-interact"].AddPeekEntryByPolyTarget(
         _0x36a1eb,
         _0x2b2b70,
         _0x3840dc,
       );
     };
     var _0x157fbd = (_0x569426, _0x4a902b, _0x550fd5) => {
-      globalThis.exports["codera-emotesinteract"].AddPeekEntryByFlag(
+      globalThis.exports["AW_emote-interact"].AddPeekEntryByFlag(
         _0x569426,
         _0x4a902b,
         _0x550fd5,
       );
     };
     var _0x499c52 = (_0x5a918b, _0x5bcb64, _0x1c1826) => {
-      globalThis.exports["codera-emotesinteract"].AddPeekEntryByEntityType(
+      globalThis.exports["AW_emote-interact"].AddPeekEntryByEntityType(
         _0x5a918b,
         _0x5bcb64,
         _0x1c1826,
@@ -17873,7 +17873,7 @@
         _0x6ec638(this, _0x486d76, _0x410616.codename);
         _0x6ec638(this, _0x3a12c9, _0x410616.version);
         _0x6ec638(this, _0xf944, GetCurrentResourceName());
-        _0x6ec638(this, _0x588143, "nopixel-emotes");
+        _0x6ec638(this, _0x588143, "AW_emote");
         emit("__npx_core:handshake", _0x410616, _0x2417b5(this, _0x372831, _0x1055da).bind(this));
         _0x3b2685.register("__npx_core:handshake", async (_0x4b3244) => {
           if (_0x4b3244.codename !== _0x3677d2(this, _0x486d76)) {
@@ -18212,7 +18212,7 @@
         if (!_0x25be82()) {
           return;
         }
-        console.log("^5[nopixel] ^7" + _0x1d063c, ..._0x25f6e3, "^0");
+        console.log("^5[AW_emote] ^7" + _0x1d063c, ..._0x25f6e3, "^0");
       },
       debug: (_0x20f2fe, ..._0x23093c) => {
         if (!_0x3be757()) {
@@ -19022,8 +19022,8 @@
       SetBlockingOfNonTemporaryEvents(this.data.clonedPed, true);
       ClearPedTasksImmediately(this.data.clonedPed);
       SetEntityCollision(this.data.clonedPed, false, false);
-      if (GetResourceState("codera-cleanup") === "started") {
-        globalThis.exports["codera-cleanup"].AddBypassObject(this.data.clonedPed);
+      if (GetResourceState("AW_emote-cleanup") === "started") {
+        globalThis.exports["AW_emote-cleanup"].AddBypassObject(this.data.clonedPed);
       }
       playPlacedEmote(this.data.clonedPed, this.data.emote);
       SetEntityAlpha(this.data.clonedPed, 200, false);
@@ -19773,7 +19773,7 @@
       }
     }
 
-    new NpxCore({ codename: "emotes", version: "0.0.0" });
+    new NpxCore({ codename: "AW_emote", version: "0.0.0" });
 
     on("onClientResourceStart", async (resourceName) => {
       if (resourceName !== GetCurrentResourceName()) {

@@ -2,8 +2,9 @@ fx_version "cerulean"
 games { "gta5" }
 lua54 "yes"
 
-author "codera"
-description "codera Developments Animation System V"
+name "AW_emote"
+author "AW_emote"
+description "AW_emote Animation System V"
 version "0.1.0"
 
 
