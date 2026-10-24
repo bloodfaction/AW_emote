@@ -1,7 +1,7 @@
 <img width="1439" height="812" alt="1111" src="https://github.com/user-attachments/assets/7700c9de-4ba0-45a5-83a9-36bdaa352fdb" />
-# codera-emote
+# AW_emote
 
-Animation / emote system for FiveM — **codera Developments Animation System V**.
+Animation / emote system for FiveM — **AW_emote Animation System V**.
 
 ## Features
 
@@ -19,9 +19,9 @@ Emote props (cigarettes, cigars, coffee, phone, notepad, glowsticks, ...) are sp
 
 ## Installation
 
-1. Put the `codera-emote` folder in your resources directory. Name the folder `codera-emote` (the resource finds its own name, so other names also work, but the examples below assume `codera-emote`).
+1. Put the `AW_emote` folder in your resources directory. Name the folder `AW_emote` (the resource finds its own name, so other names also work, but the examples below assume `AW_emote`).
 2. Import `sql/emotes.sql` into your database.
-3. Add `ensure codera-emote` to `server.cfg`, after `oxmysql` and your framework.
+3. Add `ensure AW_emote` to `server.cfg`, after `oxmysql` and your framework.
 4. **ESX users:** copy `server/variants/esx.js` over `server/main.js` and rename the `citizenid` column in `player_emotes` to `player_id`. **QBCore users:** the default `server/main.js` is already the QBCore version.
 
 ## Usage
@@ -42,7 +42,7 @@ Menu controls: arrow keys to move, `Enter` to play, `F` to favorite, `X` to assi
 
 ### Radial menu
 
-If you use `codera-radialmenu`, add the following entry to the radial menu config:
+If you use `AW_radialmenu`, add the following entry to the radial menu config:
 
 ```lua
 [4] = {
@@ -74,7 +74,7 @@ If you use `codera-radialmenu`, add the following entry to the radial menu confi
 
 ```lua
 -- Returns the animal emote list for the local ped's model (nil/empty for humans)
-exports["codera-emote"]:GetAnimalEmotes()
+exports["AW_emote"]:GetAnimalEmotes()
 ```
 
 `IsShortcut` is also exported (true while Left Shift is held and the player is not moving fast).
@@ -84,11 +84,11 @@ exports["codera-emote"]:GetAnimalEmotes()
 
 - **Emote data:** edit the files in `data/` (each defines a global list such as `EMOTES`, `DANCES`, `WALKS`).
 - **Card thumbnails:** `web/dist/thumbs.png` (a 10×9 sprite sheet of 90 silhouettes). Each emote gets one by a stable hash of its category and id. To pin one, set `window.THUMB_OVERRIDE = { "emotes:coffee": "07" }` before the UI script loads (ids are the original figure numbers, in sorted order).
-- **Log level:** convar `codera-emote_logLevel`.
+- **Log level:** convar `AW_emote_logLevel`.
 
 ## Credits
 
-Author: codera.
+Author: AW_emote.
 
 ## Placed emote controls
 
